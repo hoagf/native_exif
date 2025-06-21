@@ -42,7 +42,7 @@ android {
 
     defaultConfig {
         applicationId "com.cloudacy.native_exif_example"
-        minSdkVersion 19
+        minSdkVersion flutter.minSdkVersion
         targetSdkVersion 33
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
